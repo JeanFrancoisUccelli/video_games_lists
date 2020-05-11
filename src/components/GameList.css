@@ -1,0 +1,37 @@
+
+.menu__title {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 80px;
+  padding: 0px 20px;
+  background-color: blueviolet;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.menu__item {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background: #444;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 5px;
+  color: white;
+}
+
+.menu__item:hover {
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+  0 0 1rem rgba(0,0,0,0.2);
+}
+
+.GameList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
